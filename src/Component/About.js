@@ -24,13 +24,10 @@ const About = () => {
             Apart from coding I love to make some crafts work in my spare time.
           </p>
           <div>
-      <h1>Resume Download</h1>
-  <Download resumeUrl={resumeUrl} />
-    </div>
+           <Download resumeUrl={resumeUrl} />
+          </div>
 
         </div>
-
-        <div></div>
       </div>
 
       <h1 className="SkillsHeading"> Skillset</h1>
