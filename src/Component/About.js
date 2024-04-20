@@ -2,7 +2,7 @@ import React from "react";
 import Skills from './Skills';
 import Download from "./Download";
 const About = () => {
-  const resumeUrl = 'src/images/GAYATHIRI E- RESUME.pdf';
+  const resumeUrl = 'Resume.pdf';
   return (
     <>
       <div className="AboutPage">
@@ -23,11 +23,11 @@ const About = () => {
             <br />
             Apart from coding I love to make some crafts work in my spare time.
           </p>
-          <a href="D:\my-portfolio\src\images\Resume.pdf" download className="resume-btn">
-            <button>
-              Download Resume <Download resumeUrl={resumeUrl} />
-            </button>
-          </a>
+          <div>
+      <h1>Resume Download</h1>
+  <Download resumeUrl={resumeUrl} />
+    </div>
+
         </div>
 
         <div></div>

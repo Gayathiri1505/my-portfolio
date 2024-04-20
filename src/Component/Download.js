@@ -5,7 +5,7 @@ const Download = ({ resumeUrl }) => {
   const handleDownload = () => {
     const anchor = document.createElement('a');
     anchor.href = resumeUrl;
-    anchor.download = 'src/images/Resume.pdf';
+    anchor.download = 'Resume.pdf';
     anchor.click(); 
   };
 
